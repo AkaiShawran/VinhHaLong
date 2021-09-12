@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'font9';
+	src: url("font/Comfortaa-Medium.ttf")
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'font9';
+    color: #C9C9C9;
+}
+.container{
+    width: 100%;
+    background: #181818;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to top,rgba(75,75,75,0),rgba(47,185,213,1.00));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+.menu{
+    font-weight: bold;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    padding: 0 20px;
+}
+.menu ul li a{   
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu ul li:hover a{
+    color: limegreen;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.signin a{
+    color: #C9C9C9;
+    font-size: 24px;
+    letter-spacing: 24px;
+}
+.signin a:hover{
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background: url("img/anh bia.jpg");
+    background-size: cover;
+    
+}
+.left-banner{
+    width: 30%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+.tuafilm{
+    padding-bottom: 26px;
+    margin-left: 50px
+}
+.buttum{
+    margin-left: 50px;
+    padding-bottom: 26px;
+}
+.buttum button:first-child{
+    width: 150px;
+    height: 40px;
+    background: #57ABFF;
+    border: none;
+    border-radius: 20px;       
+}
+.buttum button:first-child a{
+    text-decoration: none;
+    color: white; 
+}
+.buttum button:first-child i{
+    padding-right: 12px;
+}
+.buttum button:last-child{
+    width: 200px;
+    height: 40px;
+    background: #57ABFF;
+    border: none;
+    border-radius: 20px;
+    color: white;    
+}
+.buttum button:last-child a{
+    text-decoration: none;
+    color: white; 
+}
+.nutbam button:last-child i{
+    padding-right: 12px;
+}
+.buttum button:hover{
+    background: #1c548d;
+}
+.chuthich{
+    margin-left: 50px;
+    color: white;
+    line-height: 1.5rem; 
+	font-weight: 900;
+}
+.right-banner{
+    width: 70%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+.tieude{
+    display: flex;
+    align-items: center;
+    padding: 50px 0 20px;
+}
+.tieude h3{
+    margin-left: 50px;
+    padding-right: 20px;
+}
+.tieude i:hover{
+    color: white;
+    transform: translateX(10px);
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    padding-bottom: 50px;
+}
+.slide .box{
+    width: 20%;
+    height: 150px;
+    margin: 0 10px;    
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+
+
+.footer{
+    padding: 50px;
+    background-color: #002029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app{
+    margin-bottom: 20px;
+}
+.soci i{
+    margin: 0 20px;
+    font-size: 36px;
+    
+}
